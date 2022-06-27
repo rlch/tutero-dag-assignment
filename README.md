@@ -42,11 +42,11 @@ Actionable blocks of code are denoted with `//*`
 
 - Version control your assignment on **GitHub**
 - Give access to [@rlch](https://github.com/rlch)
-- You should send the link to your repository, how much time you took to complete the assignment; as well as a video detailing all the features within your app to the following emails when you are finished: sonny@tutero.com.au, richard@tutero.com.au
+- You should send the link to your repository amd how much time you took to complete the assignment: sonny@tutero.com.au, richard@tutero.com.au
 
 ---
 
 ## Tips + Notes
 
-- Try your best to use your initiative, but if you have any issues please contact  [richard@tutero.com.au](mailto:richard@tutero.com.au)
+- Try your best to use your initiative, but if you have any issues please contact [richard@tutero.com.au](mailto:richard@tutero.com.au)
 - We will set up a final interview with you after your assignment is complete to go over your code and ask you various questions about your assignment.
