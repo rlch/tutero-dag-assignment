@@ -1,17 +1,15 @@
 package main
 
-import (
-	"fmt"
-	"testing"
-)
+import "testing"
 
 func BenchmarkDrive(b *testing.B) {
-	fmt.Println(b.N)
+	steps := 0.0
 	for i := 0; i < b.N; i++ {
 		if n, err := drive(); err != nil {
 			b.Error(err)
 		} else if err == nil {
-			b.ReportMetric(float64(n), "steps")
+			steps += float64(n)/float64(b.N)
 		}
 	}
+	b.ReportMetric(float64(steps), "steps/op")
 }

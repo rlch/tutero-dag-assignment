@@ -29,10 +29,10 @@ func main() {
 
 func drive() (int, error) {
 	g, err := graph.Random(func(opts *graph.RandomOptions) {
-		opts.MinPerRank = 1
-		opts.MaxPerRank = 30
-		opts.MinRanks = 3
-		opts.MaxRanks = 30
+		opts.MinPerRank = 15
+		opts.MaxPerRank = 20
+		opts.MinRanks = 8
+		opts.MaxRanks = 10
 		opts.Percent = rand.Float32()
 	})
 	g.AddNode("A") // Ensure at-least one node
