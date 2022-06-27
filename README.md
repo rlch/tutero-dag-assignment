@@ -42,7 +42,7 @@ Actionable blocks of code are denoted with `//*`
 
 - Version control your assignment on **GitHub**
 - Give access to [@rlch](https://github.com/rlch)
-- You should send the link to your repository amd how much time you took to complete the assignment: sonny@tutero.com.au, richard@tutero.com.au
+- You should send the link to your repository and how much time you took to complete the assignment: sonny@tutero.com.au, richard@tutero.com.au
 
 ---
 
