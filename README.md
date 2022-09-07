@@ -6,7 +6,7 @@
 
 In this assignment, you will be responsible for guessing Randy’s favourite Mathematics skill. You are given a knowledge graph (directed acyclic graph), representing all the skills that Randy knows; where the parents of a given skill `s` are pre-requisites to knowing `s`, and the children of `s` require the knowledge of `s` to be learnt.
 
-With each guess `g` that you submit, Randy will only tell you whether `g` is his favourite skill, whether he learnt `g` before his favourite skill, or whether he learnt `g` after his favourite skill. (Randy is annoying)
+With each guess `g` that you submit, Randy will only tell you whether `g` is his favourite skill, whether he learnt `g` before his favourite skill, or whether he learnt `g` after his favourite skill. (Randy is annoying) Note that a skill cannot be learnt before all of its prerequisites are learnt. Learning a skill `x` before another skill `y`  doesn’t imply that `x` **is** a prerequisite of `y`, only that `x` **can be** a prerequisite of `y`.
 
 ---
 
