@@ -7,8 +7,8 @@ func BenchmarkDrive(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		if n, err := drive(); err != nil {
 			b.Error(err)
-		} else if err == nil {
-			steps += float64(n)/float64(b.N)
+		} else {
+			steps += float64(n) / float64(b.N)
 		}
 	}
 	b.ReportMetric(float64(steps), "steps/op")
